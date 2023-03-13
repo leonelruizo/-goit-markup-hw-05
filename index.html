@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="page-header">
     <div class="container header-container">
       <a class="logo" href="./index.html">Webstudio</a>
       <nav>
@@ -51,7 +51,7 @@
   <main>
     <section class="hero">
       <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <button class="hero-buton" type="reset">
+      <button class="hero-buton" type="button" id="data-modal-open">
         solicite nuestro servicio
       </button>
     </section>
@@ -427,6 +427,17 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" id="data-modal">
+    <div class="modal">
+      <button class="close-btn" id="data-modal-close">
+        <svg class="close">
+          <use href="./images/sprites.svg#icon-close">
+          </use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
