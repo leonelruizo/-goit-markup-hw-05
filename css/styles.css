@@ -46,7 +46,7 @@ li {
   line-height: 1.19;
 }
 
-.page-header {
+.header {
   border: 1px solid #ececec;
 }
 
@@ -283,6 +283,10 @@ li {
   border-color: var(--accent-color);
 }
 
+.icon {
+  margin-right: 10px;
+}
+
 .albun-list {
   display: flex;
   gap: 30px;
@@ -392,6 +396,15 @@ li {
   background-color: var(--accent-color);
   transform: translateY(100%);
   transition: transform 250ms ease;
+}
+
+.overlay-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .card-images {
