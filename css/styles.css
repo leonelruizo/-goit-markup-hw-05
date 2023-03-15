@@ -153,6 +153,7 @@ li {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color ,2ms green;
 }
 
 .benefits-icon {
